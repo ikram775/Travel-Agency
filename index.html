@@ -13,32 +13,18 @@
 
 <body>
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg position-fixed w-100 top-0 z-3 transparent">
-    <div class="container">
-      <a class="navbar-brand" href="#">Maldives Explorer</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto d-none d-lg-flex">
-          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#destinations">Destinations</a></li>
-          <li class="nav-item"><a class="nav-link" href="#packages">Packages</a></li>
-          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+<nav class="navbar navbar-expand-lg position-fixed w-100 top-0 z-3 navbar-custom">
+  <div class="container">
+    <a class="navbar-brand" href="/index.html">
+      <img src="images/logo.png" alt="Logo" height="200" width="300">
+</a>
 
-  <!-- Offcanvas Sidebar -->
-  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar">
-    <div class="offcanvas-header">
-      <h5 class="offcanvas-title text-dark">Menu</h5>
-      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
-    </div>
-    <div class="offcanvas-body">
-      <ul class="navbar-nav">
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse d-none d-lg-flex" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
         <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
         <li class="nav-item"><a class="nav-link" href="#destinations">Destinations</a></li>
         <li class="nav-item"><a class="nav-link" href="#packages">Packages</a></li>
@@ -47,73 +33,53 @@
       </ul>
     </div>
   </div>
+</nav>
 
-  <!-- Hero Section -->
-  <header class="hero">
-    <div class="container" data-aos="fade-up">
-      <h1>Discover Maldives</h1>
-      <p class="lead">Find your unique island escape in the Maldives</p>
-      <a href="#packages" class="btn btn-outline-light btn-lg mt-3">Plan Your Trip</a>
-    </div>
-  </header>
+<!-- Offcanvas Menu for Mobile -->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title">Menu</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+  </div>
+  <div class="offcanvas-body">
+    <ul class="navbar-nav">
+      <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="#destinations">Destinations</a></li>
+      <li class="nav-item"><a class="nav-link" href="#packages">Packages</a></li>
+      <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+      <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</div>
 
-<body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg position-fixed w-100 top-0 z-3 transparent">
-    <div class="container">
-      <a class="navbar-brand" href="#">Maldives Explorer</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#destinations">Destinations</a></li>
-          <li class="nav-item"><a class="nav-link" href="#packages">Packages</a></li>
-          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-        </ul>
+
+
+
+  <!-- Hero Section with Carousel -->
+<header>
+  <div id="heroCarousel" class="carousel slide hero-carousel" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/Private Islands.jpg" class="d-block w-100" alt="Slide 1">
+        <div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/underwater rest.jpg" class="d-block w-100" alt="Slide 2">
+        <div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/water Wi.jpg" class="d-block w-100" alt="Slide 3">
+        <div>
+        </div>
       </div>
     </div>
-  </nav>
+  </div>
+</header>
 
-  <!-- Hero Section -->
-  <header class="hero">
-    <div class="container" data-aos="fade-up">
-      <h1>Discover Maldives</h1>
-      <p class="lead">Find your unique island escape in the Maldives</p>
-      <a href="#packages" class="btn btn-outline-light btn-lg mt-3">Plan Your Trip</a>
-    </div>
-  </header>
 
 <body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg">
-    <div class="container">
-      <a class="navbar-brand" href="#">Maldives Explorer</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#destinations">Destinations</a></li>
-          <li class="nav-item"><a class="nav-link" href="#packages">Packages</a></li>
-          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Hero Section -->
-  <header class="hero">
-    <div class="container" data-aos="fade-up">
-      <h1>Discover Maldives</h1>
-      <p class="lead">Find your unique island escape in the Maldives</p>
-      <a href="#packages" class="btn btn-outline-light btn-lg mt-3">Plan Your Trip</a>
-    </div>
-  </header>
 
   <!-- Destinations -->
   <section id="destinations" class="py-5">
@@ -122,7 +88,7 @@
       <div class="row g-4">
         <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
           <div class="card">
-            <img src="https://source.unsplash.com/400x250/?maldives,beach" class="card-img-top" alt="Beach">
+            <img src="/images/Beach Resorts.jpg" class="card-img-top" alt="Beach" height="370" >
             <div class="card-body">
               <h5 class="card-title">Beach Resorts</h5>
               <p class="card-text">Luxurious resorts with white sands and turquoise waters.</p>
@@ -131,7 +97,7 @@
         </div>
         <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
           <div class="card">
-            <img src="https://source.unsplash.com/400x250/?maldives,island" class="card-img-top" alt="Island">
+            <img src="/images/Private Islands.jpg" class="card-img-top" alt="Island" height="395">
             <div class="card-body">
               <h5 class="card-title">Private Islands</h5>
               <p class="card-text">Experience serenity on secluded private islands.</p>
@@ -140,7 +106,7 @@
         </div>
         <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
           <div class="card">
-            <img src="https://source.unsplash.com/400x250/?maldives,diving" class="card-img-top" alt="Diving">
+            <img src="/images/Diving Spots.jpg" class="card-img-top" alt="Diving" height="370">
             <div class="card-body">
               <h5 class="card-title">Diving Spots</h5>
               <p class="card-text">Explore vibrant reefs and marine life through diving tours.</p>

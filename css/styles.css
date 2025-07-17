@@ -1,37 +1,39 @@
 body {
       font-family: 'Roboto', sans-serif;
-      background-color: #ffffff;
-      color: #2a2a2a;
+     
     }
+
+  
+
     .navbar {
       transition: background-color 0.3s ease;
     }
     .navbar.sticky {
-      background-color: #cbcdce !important;
+      background-color: #c45617d2 !important;
     }
     .navbar.transparent {
       background-color: transparent !important;
     }
     .navbar-brand, .nav-link {
-      color: #ffffff !important;
+      color: #201e1e !important;
       font-weight: 500;
+      font-size: 25px;
     }
     .navbar-brand:hover, .nav-link:hover {
-      color: #00acc1 !important;
+      color: #220f16 !important;
+      border-radius: 10px;
     }
-    .hero {
-      background: linear-gradient(rgba(1,46,69,0.6), rgba(1,46,69,0.6)), url('https://visitmaldives.com/storage/uploads/slider/thumbs/1050x700/65b1353ecf445.jpg') center/cover no-repeat;
-      color: #fff;
-      height: 80vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-    }
-    .hero h1 {
-      font-size: 3rem;
-      font-weight: 700;
-    }
+    .hero-carousel img {
+    height: 80vh;
+    object-fit: cover;
+  }
+
+  .carousel-caption {
+    background: rgba(0, 0, 0, 0.4);
+    padding: 1rem;
+    border-radius: 10px;
+  }
+
     .section-title {
       color: #012e45;
       font-weight: 700;
@@ -39,7 +41,7 @@ body {
     .card {
       border: none;
       border-radius: 0;
-      box-shadow: 0 0 16px rgba(0,0,0,0.05);
+      box-shadow: 0 0 16px rgba(222, 62, 62, 0.792);
       transition: transform 0.3s;
     }
     .card:hover {
@@ -50,7 +52,7 @@ body {
       color: #ffffff;
     }
     footer a {
-      color: #00acc1;
+      color: #d1d8d8;
       text-decoration: none;
     }
     footer a:hover {
