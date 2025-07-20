@@ -26,3 +26,18 @@
     });
   }
 
+  //email js code to send email
+ 
+// function sendMail() {
+//   const templateParams = {
+//     name: document.getElementById("#name").value,
+//     email: document.getElementById("#email").value,
+//     subject: document.getElementById("#Subject").value,
+//     message: document.getElementById("#message").value
+//   }
+
+//   emailjs.send("service_jm8c7q4", "template_v2cdolo", templateParams).then((
+//   ) => {
+//     alert("email sent").catch(()=>alert("Email not send"));
+//   });
+// }

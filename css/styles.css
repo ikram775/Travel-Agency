@@ -1,3 +1,4 @@
+
 body {
       font-family: 'Roboto', sans-serif;
      
@@ -84,4 +85,78 @@ body {
     }
     .offcanvas a.nav-link:hover {
       color: #00acc1 !important;
+    }
+
+.button-par{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #012e45 !important;
+      color: #fff !important;
+      border-radius: 10px;
+      display: inline-block;
+
+      
+      transition: background-color 0.3s, color 0.3s;
+    }
+    .button-par:hover {
+      display: inline-block;
+      padding: 10px;
+      background-color: #00acc1 !important;
+      color: #fff !important;
+}
+    .btnorange{
+    display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #c45617 !important;
+      color: #fff !important;
+      border-radius: 10px;
+      font-weight: 500;
+    }
+
+    #packages{
+     align-items: center;
+      justify-content: center;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding: 20px;
+    }
+
+
+
+    <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(to right, #c9d6ff, #e2e2e2);
+      min-height: 100vh;
+    }
+
+    .contact-card {
+      background-color: rgba(255, 255, 255, 0.95);
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      padding: 2rem;
+    }
+
+    .contact-info {
+      background: linear-gradient(to bottom right, #56ccf2, #2f80ed);
+      color: white;
+      border-radius: 20px;
+      padding: 2rem;
+    }
+
+    .form-control, .form-select {
+      border-radius: 10px;
+    }
+
+    .btn-send {
+      background-color: #2f80ed;
+      color: white;
+      border-radius: 10px;
+    }
+
+    .btn-send:hover {
+      background-color: #2563eb;
     }
