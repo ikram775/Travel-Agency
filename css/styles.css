@@ -46,6 +46,7 @@ body {
     }
     .card:hover {
       transform: translateY(-5px);
+      height: 10px;
     }
     footer {
       background-color: #012e45;
@@ -69,7 +70,7 @@ body {
       border: none;
       border-radius: 50%;
       cursor: pointer;
-      z-index: 1000;
+      z-index: 500;
     }
     .scroll-top:hover {
       background-color: #00acc1;
@@ -111,7 +112,7 @@ body {
       background-color: #c45617 !important;
       color: #fff !important;
       border-radius: 10px;
-      font-weight: 500;
+      font-weight: 12;
     }
 
     #packages{
@@ -129,7 +130,7 @@ body {
     body {
       font-family: 'Roboto', sans-serif;
       background: linear-gradient(to right, #c9d6ff, #e2e2e2);
-      min-height: 100vh;
+      min-height: 50vh;
     }
 
     .contact-card {
